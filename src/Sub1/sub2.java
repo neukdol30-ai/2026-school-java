@@ -11,10 +11,8 @@ public class sub2 {
         int tenNum;
         int oneNum;
 
-        if(num > 99){
+        if(num > 99 || num < 10){
             System.out.println("ERROR!! 범위에서 벗어났습니다");
-        }else if(num < 10) {
-            System.out.println("ERROR!! 정수 미달입니다!");
         }else {
             tenNum = num / 10;
             oneNum = num % 10;
