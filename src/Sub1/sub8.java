@@ -27,6 +27,7 @@ public class sub8 {
             result = (double) a / b;
         } else {
             System.out.println("ERROR!!");
+            return;
         }
 
         if (result == (int) result) {

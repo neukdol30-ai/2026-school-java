@@ -10,10 +10,15 @@ public class sub1 {
         int won = sc.nextInt();
         double dor;
 
-        dor = won / 1500;
+        System.out.printf("%d는 $%.2f 입니다.", won, dor(won));
+    }
 
-        //System.out.println(won + "원은 달러 약 $" + dor + "입니다");
-        System.out.printf("%d는 $%.2f 입니다.", won, dor);
 
+
+    static double dor(int won){
+
+        //double dor = (double) won / 1500;
+        //return dor;
+        return (double) won / 1500;
     }
 }
