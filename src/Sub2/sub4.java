@@ -6,7 +6,7 @@ public class sub4 {
         for(int i = 1; i <= 10; i++){
             if(i % 2 ==0){
                 System.out.printf("%d : 짝수%n",i);
-            } else if (i % 2 != 0) {
+            } else {
                 System.out.printf("%d : 홀수%n",i);
             }
         }

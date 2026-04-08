@@ -18,7 +18,7 @@ public class sub10 {
         int count=0;
 
         for (int i = 0; i < scores.length; i++ ){
-            if(scores[i] > 60){
+            if(scores[i] >= 60){
                 System.out.println(scores[i]);
                 count++;
             }
