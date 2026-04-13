@@ -1,4 +1,4 @@
-package Sub7.S1;
+package Sub7.S0;
 
 public class studentWorker extends student{
 
