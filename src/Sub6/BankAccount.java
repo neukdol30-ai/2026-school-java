@@ -4,6 +4,8 @@ public class BankAccount {
     String owner;
     int balance;
 
+
+
     void deposit(int money){
         if(money <= 0){
             System.out.println("0원 이하의 금액은 입금할 수 없습니다.");
