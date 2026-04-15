@@ -4,7 +4,8 @@ public interface  Animal {
 
     //String Animal; 불가
 
-   void sound(){
-       System.out.println("울음소리");
-   }
+   void sound();
+//   {
+//       System.out.println("울음소리");
+//   }
 }

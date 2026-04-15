@@ -1,8 +1,8 @@
 package Sub8.S2;
 
-public class dog extends Animal {
+public class dog implements Animal {
 @Override
-    void sound(){
+    public void sound(){
         System.out.println("멍멍");
     }
 }
