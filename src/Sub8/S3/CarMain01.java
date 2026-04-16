@@ -12,5 +12,9 @@ public class CarMain01 {
         driver.setCar(k5);
         driver.driver();
 
+        Car k7 = new K7();
+        driver.setCar(k7);
+        driver.driver();
+
     }
 }
