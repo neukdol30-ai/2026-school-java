@@ -5,7 +5,7 @@ public class StringStack implements Stack{
     private String words[];
     private int num;
 
-    public StringStack (String capacity){
+    public StringStack (int capacity){
         this.words = new String[capacity];
         num = 0;
 
