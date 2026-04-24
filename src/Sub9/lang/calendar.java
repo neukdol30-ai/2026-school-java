@@ -1,4 +1,4 @@
-package Sub9;
+package Sub9.lang;
 
 public class calendar {
     private final int day;
