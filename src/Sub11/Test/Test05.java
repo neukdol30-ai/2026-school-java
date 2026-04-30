@@ -26,8 +26,9 @@ public class Test05 {
             studentMap.put(s.getName(), s);
         }
 
+
         while(true) {
-            String name = sc.nextLine();
+            String name = sc.next();
             if(name.equals("그만")) break;
             System.out.println(studentMap.get(name));
         }

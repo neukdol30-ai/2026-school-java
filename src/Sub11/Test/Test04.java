@@ -1,6 +1,7 @@
 package Sub11.Test;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Test04 {
@@ -15,8 +16,12 @@ public class Test04 {
             int input = sc.nextInt();
             if (input == 0){break;}
             rainFall.add(input);
+            Iterator<Integer> iterator = rainFall.iterator();
             //count++;
-            System.out.println(rainFall);
+            //System.out.print(rainFall);
+            while(iterator.hasNext()){
+                System.out.print(iterator.next()+" ");
+            }
             sum = sum + input;
             System.out.println((double)sum / rainFall.size());
 
