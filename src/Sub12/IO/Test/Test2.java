@@ -1,7 +1,6 @@
-package Sub11.compare.IO.Test;
+package Sub12.IO.Test;
 
 import java.io.BufferedOutputStream;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

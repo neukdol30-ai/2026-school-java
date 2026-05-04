@@ -1,4 +1,4 @@
-package Sub11.compare.IO;
+package Sub12.IO;
 
 public class BufferedConstant {
     public static final String FILE_NAME = "temp/buffered.txt";
