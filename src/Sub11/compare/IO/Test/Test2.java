@@ -1,8 +1,10 @@
 package Sub11.compare.IO.Test;
 
+import java.io.BufferedOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class Test2 {
@@ -10,19 +12,22 @@ public class Test2 {
         Scanner sc = new Scanner(System.in);
 
         FileOutputStream fos = new FileOutputStream("temp/diary.txt");
+        BufferedOutputStream bos = new BufferedOutputStream(fos);
 
 
         while(true){
             String input = sc.nextLine();
             if(input.equals("exit")) break;
 
-            String line = input + "\n";
-            fos.write(line.getBytes());
+
+            //String line = input + "\n";
+            //fos.write(line.getBytes());
+            bos.write((input + '\n').getBytes(StandardCharsets.UTF_8));
         }
 
-        fos.close();
+        //fos.close();
         sc.close();
-
+        bos.close();
 
 
 

@@ -11,11 +11,13 @@ public class Test1 {
         FileOutputStream fos = new FileOutputStream("temp/copy.webp");
 
         byte[] buffer= new byte[8192];
+        //byte[] buffer = fis.readAllBytes();
 
         int readCount;
 
         while((readCount = fis.read(buffer)) != -1){
             fos.write(buffer, 0 , readCount);
+            //fileoutputStream.write(buffer)
         }
 
         fis.close();
